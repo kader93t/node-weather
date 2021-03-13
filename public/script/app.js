@@ -5,7 +5,7 @@ const weather = document.querySelector('#weather');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const adress = e.target.adress.value;
-  fetch(`http://localhost:3000/weather?address=${adress}`).then((res) => {
+  fetch(`/weather?address=${adress}`).then((res) => {
     res.json().then((data) => {
       if (data.error) {
         locationElement.textContent = data.error;
