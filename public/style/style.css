@@ -1,0 +1,60 @@
+body {
+  max-width: 70%;
+  color: #333;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 600;
+}
+header a {
+  margin-top: 50px;
+  text-decoration: none;
+  padding-right: 30px;
+  color: lightslategray;
+  font-size: 18px;
+}
+header {
+  margin-bottom: 30px;
+}
+a:hover {
+  color: #555;
+}
+footer {
+  color: lightslategray;
+  margin-top: 20px 0;
+  font-size: 18px;
+  padding: 20px 0;
+  border: 1px solid #eee;
+}
+
+.portrait {
+  width: 300px;
+  height: 300px;
+}
+
+input {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+button {
+  background-color: cornflowerblue;
+  border: 1px solid transparent;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 0 3px #333;
+}
+input:hover,
+input:focus {
+  box-shadow: 0 0 2px cornflowerblue;
+}
